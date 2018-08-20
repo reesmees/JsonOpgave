@@ -49,5 +49,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JsonOpgave.Entities\JsonOpgave.Entities.csproj">
+      <Project>{5dd5b134-efa1-4224-a754-2db1fb040607}</Project>
+      <Name>JsonOpgave.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JsonOpgave.Service\JsonOpgave.Service.csproj">
+      <Project>{6fba55b5-8c76-4074-bb16-64042af7fab3}</Project>
+      <Name>JsonOpgave.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
